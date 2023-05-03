@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lokesh chaudhary</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+
+    <!-- Move to up button -->
+    <div class="scroll-button">
+        <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navgaition menu -->
+    <nav>
+        <div class="navbar">
+            <div class="logo"><a href="#">Portfolio</a></div>
+            <ul class="menu">
+                <click onclick="myFunction()"><span style='font-size:18px;'>&#9728;</span></click>
+                <script>
+                    function myFunction() {
+                        var element = document.body;
+                        element.classList.toggle("dark-mode");
+                    }
+                </script>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="https://bcanotesnepal.com/">BcaNotes</a></li>
+                <div class="cancel-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+            </ul>
+            <div class="media-icons">
+                <a href="https://www.facebook.com/lokesh.chaudhary.1422409/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/Lokesh14ry"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/lokesh14ry/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@lokesh_14ry"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.youtube.com/channel/UCUfFbtUlhFcILDSMsGG6O0w"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <div class="text">
+                <div style='text-align: center;'>
+                    <link rel="stylesheet" href="Google Home Page.css">
+                    <input type="text" class="query" placeholder="Search Any Thing Here.....">
+                    <buttonclass="search" onclick="search()"> <i class="fas fa-fighter-jet" style="font-size:16px;color:#c02b44;"></i>
+                        </button>
+                        <script>
+                            function search() {
+                                let query = document.querySelector('.query').value;
+                                return window.location = 'https://www.google.com/search?q=' + query;
+                            }
+                        </script>
+                </div>
+
+                <div class="text-one">Hello,I'm</div>
+                <div class="text-two">
+                    <style>
+                        body {
+                            background-color: rgb(252, 252, 252);
+                            font-family: cursive;
+                        }
+                        
+                        .glow {
+                            font-size: 45px;
+                            color: #fff;
+                            text-align: left;
+                            animation: glow 1s ease-in-out infinite alternate;
+                        }
+                        
+                        @-webkit-keyframes glow {
+                            from {
+                                text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+                            }
+                            to {
+                                text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+                            }
+                        }
+                    </style>
+                    <h1 class="glow">Lokesh Chaudhary</h1>
+                </div>
+                <div class="text-three">And I'm a <span class="auto-type"></span></div>
+                <div class="text-four">From Nepal</div>
+            </div>
+            <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+            <script>
+                var typed = new Typed(".auto-type", {
+                    strings: ["YouTuber", "Designer", "TikToker", "Developer", "Freelancer", ],
+                    typeSpeed: 150,
+                    backSpeed: 150,
+                    loop: true
+                })
+            </script>
+            <div class="button">
+                <a href="https://www.facebook.com/lokesh.chaudhary.1422409/"><button>Hire Me</button></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+        <div class="content">
+            <div class="title"><span>About Me</span></div>
+            <div class="about-details">
+                <div class="left">
+                    <img src="images/about.jpg" alt="about.jpg">
+                </div>
+                <div class="right">
+                    <div class="topic">Designing Is My Passion</div>
+                    <p>Passion for designing can be an incredibly rewarding and fulfilling experience. Whether you are interested in graphic design, fashion design, interior design, or any other type of design, there are many opportunities to explore your
+                        interests and develop your skills.
+
+                    </p>
+                    <div class="button">
+                        <a href="https://ibb.co/W21KsXd"><button>Download CV</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Skill Section Start -->
+    <!-- Section Tag and Other Div will same where we need to put same CSS -->
+    <section class="skills" id="skills">
+        <div class="content">
+            <div class="title"><span>My Skills</span></div>
+            <div class="skills-details">
+                <div class="text">
+                    <div class="topic">Skills Reflects Our Knowledge</div>
+                    <p>Skills are a reflection of our knowledge, experience, and abilities in a particular area. When we learn and practice new things, we acquire new skills. These skills can be categorized into different types such as technical skills,
+                        soft skills, interpersonal skills, and many more.
+                    </p>
+                    <div class="experience">
+                        <div class="num">10</div>
+                        <div class="exp">Years Of <br> Experience</div>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="box">
+                        <div class="topic">HTML</div>
+                        <div class="per">90%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic">CSS</div>
+                        <div class="per">80%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic">JavScript</div>
+                        <div class="per">70%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic">PHP</div>
+                        <div class="per">60%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Services Section Start -->
+    <section class="services" id="services">
+        <div class="content">
+            <div class="title"><span>My Services</span></div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="topic">Web Devlopment</div>
+                    <p>Web development is the process of creating and maintaining websites. It involves several aspects such as web design, coding, programming, database management, and server administration.
+                    </p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="topic">Graphic Design</div>
+                    <p>Graphic design is the process of creating visual content. It involves the use of software such as Adobe Photoshop, Illustrator, and InDesign to create design.
+                    </p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="topic">Digital Marketing</div>
+                    <p>
+                        Digital marketing is the practice of promoting products, services or brands through digital channels such as search engines, social media, email, and websites.
+                    </p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fab fa-android"></i>
+                    </div>
+                    <div class="topic">Icon Design</div>
+                    <p> Icon design is the art of creating simple, recognizable symbols that represent an idea, action, or entity.
+                    </p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-camera-retro"></i>
+                    </div>
+                    <div class="topic">Photography</div>
+                    <p>
+                        Photography is the art of capturing and creating images using a camera, lens, and other equipment to tell a story or evoke emotion.
+
+                    </p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-tablet-alt"></i>
+                    </div>
+                    <div class="topic">Apps Devlopment</div>
+                    <p>Application development is the process of creating software applications that run on various devices and platforms to perform specific functions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Me section Start -->
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Contact Me</span></div>
+            <div class="text">
+                <div class="topic">Have Any Project?</div>
+                <p>If you need any type of Project related which skill listed in my Portfolio</p>
+                <div class="button">
+                    <a href="https://www.facebook.com/lokesh.chaudhary.1422409/"><button>Message me in Messgenger</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer>
+        <div class="text">
+            <span>Created By <a href="#">TG(Tharu Group)</a> | &#169; 2080 All Rights Reserved</span>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+    <style>
+        .dark-mode {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</body>
+
+</html>
