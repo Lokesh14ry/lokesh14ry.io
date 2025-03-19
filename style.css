@@ -6,14 +6,14 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
 }
 
 
 /* Custom Scroll Bar CSS */
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 6px;
 }
 
 ::-webkit-scrollbar-track {
@@ -114,8 +114,8 @@ nav .menu-btn,
     position: absolute;
     color: #fff;
     right: 30px;
-    top: 20px;
-    font-size: 20px;
+    top: 27px;
+    font-size: 25px;
     cursor: pointer;
     transition: all 0.3s ease;
     display: none
@@ -138,7 +138,7 @@ nav.sticky .menu-btn {
 .home {
     height: 100vh;
     width: 100%;
-    background: url("https://sigmawire.net/i/03/AuLkav.jpg") no-repeat;
+    background: url("https://sigmawire.net/i/03/Ten567.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -205,6 +205,8 @@ nav.sticky .menu-btn {
 @media (max-width: 768px) {
     .home .text-one {
         font-size: 20px;
+        margin-top: 32px;
+
     }
 
     .home .text-two {
@@ -213,23 +215,28 @@ nav.sticky .menu-btn {
 
     .home .text-three {
         font-size: 30px;
+        margin-bottom: -6px;
     }
 
     .home .text-four {
         font-size: 20px;
+        margin-bottom: -12px;
     }
 
     .home .button button {
         font-size: 20px;
         padding: 6px 12px;
+        margin-bottom: -19px;
     }
 
-    /* Change background image for mobile devices */
+    /* Change background image for mobile devices changed*/
     .home {
-        background-size: cover;
+        /* Maintain the 9:16 aspect ratio for mobile */
+        height: 142.70vw; /* (9 / 16) * 100 = 56.25% */
         background: url("https://sigmawire.net/i/03/72eapV.jpg") no-repeat;
+        background-size: cover;
         background-position: center;
-        background-attachment: scroll;
+        background-attachment: scroll;;
     }
 }
 
@@ -620,7 +627,7 @@ footer .text span a:hover {
         top: 0;
         background: #000000ad;
         height: 100vh;
-        max-width: 414px;
+        max-width:800px;
         width: 100%;
         padding-top: 60px;
         flex-direction: column;
