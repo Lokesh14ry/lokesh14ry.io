@@ -227,7 +227,7 @@ nav.sticky .menu-btn {
     /* Change background image for mobile devices */
     .home {
         background-size: cover;
-        background: url("https://sigmawire.net/i/03/c4p0vO.jpg") no-repeat;
+        background: url("https://sigmawire.net/i/03/72eapV.jpg") no-repeat;
         background-position: center;
         background-attachment: scroll;
     }
@@ -260,7 +260,7 @@ nav.sticky .menu-btn {
     .home {
         height: 100vh;
         width: 100%;
-        background: url("https://sigmawire.net/i/03/c4p0vO.jpg") no-repeat;
+        background: url("https://sigmawire.net/i/03/72eapV.jpg") no-repeat;
         background-size: cover;
         background-position: center;
         background-attachment: scroll;
@@ -270,7 +270,7 @@ nav.sticky .menu-btn {
         .home {
             /* Maintain the 9:16 aspect ratio for mobile */
             height: 172.70vw; /* (9 / 16) * 100 = 56.25% */
-            background: url("https://sigmawire.net/i/03/c4p0vO.jpg") no-repeat;
+            background: url("https://sigmawire.net/i/03/72eapV.jpg") no-repeat;
             background-size: cover;
             background-position: center;
             background-attachment: scroll;
